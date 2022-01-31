@@ -17,7 +17,7 @@ class Terminal {
       stdout.writeln('[$index] - ${option.label}');
     });
 
-    stdout.writeln('Enter a choice\n');
+    stdout.writeln('Enter a choice :');
     stdout.write('>');
   }
 
